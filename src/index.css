@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --if-green: #32a041;
+    --if-green-hover: #298335;
+  }
+}
+
+.bg-if-green {
+  background-color: #32a041;
+}
+
+.bg-if-green:hover {
+  background-color: #298335;
+}
+
+.text-if-green {
+  color: #32a041;
+}
+
+.border-if-green {
+  border-color: #32a041;
+}
+
+/* Status Badges */
+.status-published {
+  background-color: #10b981;
+  color: #ffffff;
+}
+
+.status-pending {
+  background-color: #f59e0b;
+  color: #ffffff;
+}
+
+.status-revision {
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
+
+.status-draft {
+  background-color: #94a3b8;
+  color: #ffffff;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

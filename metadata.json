@@ -1,0 +1,6 @@
+{
+  "name": "Galeria IFMaker",
+  "description": "Repositório e curadoria de projetos maker para laboratórios IFMaker do Campus São Paulo",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
